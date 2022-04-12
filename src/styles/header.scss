@@ -12,5 +12,8 @@
 header{
     display:flex;
     justify-content:space-between;
-    margin: 2%;
+    border-bottom-color: rgb(240, 240, 240);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding:  2%;
 }
