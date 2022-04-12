@@ -5,13 +5,13 @@ const Header = () =>{
     return(
         <header>
         <div>
-           <img src={Logo} alt="Logo"></img>
+           <img className="logo" src={Logo} alt="Logo"></img>
         </div>
-        <span>
+        <span className="nav">
             <li>How it works</li>
             <li>Pricing</li>
             <li>Login</li>
-            <button>Create account</button>
+            <button className="btn"> Create account</button>
 
         </span>
         </header>
